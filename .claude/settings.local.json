@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la public/images)",
+      "Bash(git rev-parse *)",
+      "Bash(which vercel *)"
+    ]
+  }
+}
