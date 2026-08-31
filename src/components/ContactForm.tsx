@@ -216,7 +216,7 @@ export function ContactAside() {
         · {site.phoneHours}
       </AsideRow>
       <AsideRow icon={<MapPin weight="fill" size={20} />} title="Sur place">
-        {site.location}
+        {site.address}
       </AsideRow>
     </div>
   )

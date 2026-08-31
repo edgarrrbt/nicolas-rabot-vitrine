@@ -17,9 +17,9 @@ export function HoursMap() {
         <div className="mt-14 grid gap-8 lg:grid-cols-2">
           <Reveal className="space-y-4">
             <InfoRow icon={<MapPin weight="fill" size={22} />} title="Adresse">
-              {site.location}
+              {site.address}
               <br />
-              <span className="text-bark-muted">{site.region}</span>
+              <span className="text-bark-muted">{site.location} · {site.region}</span>
             </InfoRow>
             <InfoRow icon={<Clock weight="fill" size={22} />} title="Horaires">
               {hours.weekdays}
@@ -47,7 +47,7 @@ export function HoursMap() {
 
           <Reveal className="overflow-hidden rounded-organic-lg border border-sand shadow-natural">
             <iframe
-              title="Localisation — Lac de Saint-Ferréol, Vaudreuille"
+              title="Localisation — 455 chemin de Lasprades, 31250 Vaudreuille"
               src={site.mapEmbed}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

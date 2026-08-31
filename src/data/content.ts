@@ -9,13 +9,15 @@ export const site = {
   phone: '07 56 80 41 24',
   phoneHref: 'tel:+33756804124',
   phoneHours: '9h – 18h',
+  address: '455 chemin de Lasprades, 31250 Vaudreuille',
   location: 'Vaudreuille · Revel · Lac de Saint-Ferréol',
   region: 'Haute-Garonne, Occitanie',
-  // Remplacez par votre identifiant Formspree (https://formspree.io) : "xxxxxxxx"
-  formspreeId: 'VOTRE_ID_FORMSPREE',
+  // Identifiant Formspree (https://formspree.io) — formulaire « Contact — Site Nicolas Rabot »
+  formspreeId: 'meaqeqeq',
   mapEmbed:
-    'https://www.google.com/maps?q=Lac+de+Saint-Ferréol,+Vaudreuille&output=embed',
-  mapLink: 'https://www.google.com/maps/place/Lac+de+Saint-Ferréol',
+    'https://www.google.com/maps?q=455+chemin+de+Lasprades+31250+Vaudreuille&output=embed',
+  mapLink:
+    'https://www.google.com/maps/search/?api=1&query=455+chemin+de+Lasprades+31250+Vaudreuille',
 }
 
 export const nav = [
@@ -91,8 +93,8 @@ export const formations: Formation[] = [
     id: 'habitat-insolite',
     eyebrow: 'Formation 2',
     title: 'Habitat insolite — yourte contemporaine',
-    image: '/images/table-2.jpg',
-    imageAlt: 'Table en bois massif façonnée à l’atelier',
+    image: '/images/cabane.jpg',
+    imageAlt: 'Cabane en bois contemporaine sur pilotis, nichée dans la forêt de chênes',
     duration: '2 jours',
     price: 'Nous consulter',
     group: 'Immersion en petit groupe',
