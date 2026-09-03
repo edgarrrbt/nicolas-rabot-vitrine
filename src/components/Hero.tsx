@@ -27,7 +27,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-cream/85">
-            Des formations d’immersion chez un artisan ébéniste et forestier, en
+            Des formations d’immersion chez un artisan menuisier et forestier, en
             forêt de chênes près du Lac de Saint-Ferréol. Du tronc au toit, avec
             des matériaux naturels et locaux.
           </p>

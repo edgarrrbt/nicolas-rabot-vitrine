@@ -5,7 +5,7 @@
 
 export const site = {
   name: 'Nicolas Rabot',
-  tagline: 'Artisan ébéniste & forestier',
+  tagline: 'Artisan menuisier & forestier',
   phone: '07 56 80 41 24',
   phoneHref: 'tel:+33756804124',
   phoneHours: '9h – 18h',
@@ -165,7 +165,7 @@ export const artisan = {
   portrait: '/images/atelier.jpg',
   portraitAlt: 'L’atelier et la scierie de Nicolas Rabot en pleine forêt',
   paragraphs: [
-    'Artisan ébéniste et forestier installé en Haute-Garonne, entre Revel et Vaudreuille, Nicolas Rabot gère et valorise le bois de sa propre forêt de chênes selon une gestion raisonnée et durable.',
+    'Artisan menuisier et forestier installé en Haute-Garonne, entre Revel et Vaudreuille, Nicolas Rabot gère et valorise le bois de sa propre forêt de chênes selon une gestion raisonnée et durable.',
     'Chaque essence est transformée dans son atelier en objets uniques et durables. Sa démarche se concrétise par la construction de sa propre maison autonome, conçue avec des matériaux naturels, locaux et renouvelables — autonome en eau et en électricité.',
     'Ses formations d’immersion invitent à découvrir ce savoir-faire complet, du tronc à l’habitat, dans un cadre forestier à un kilomètre du Lac de Saint-Ferréol.',
   ],
