@@ -6,8 +6,8 @@ export function Hero() {
   return (
     <section id="top" className="relative grain min-h-dvh overflow-hidden">
       <img
-        src="/images/hero.jpg"
-        alt="Nicolas Rabot travaillant le bois de sa forêt de chênes"
+        src="/images/hero-maison.jpg"
+        alt="Maison en bois écologique et atelier de Nicolas Rabot, nichés dans la forêt de chênes"
         className="absolute inset-0 h-full w-full object-cover"
       />
       <div

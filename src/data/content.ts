@@ -53,8 +53,8 @@ export const formations: Formation[] = [
     id: 'maison-ecologique',
     eyebrow: 'Formation 1',
     title: 'Maison en bois écologique & autonome',
-    image: '/images/decoupe.jpg',
-    imageAlt: 'Découpe et sciage du bois de chêne à la scierie',
+    image: '/images/maison-autonome.jpg',
+    imageAlt: 'Maison en bois équipée de panneaux solaires, autonome en eau et en électricité',
     duration: '3 jours',
     price: '750 € (indicatif)',
     group: 'Immersion en petit groupe',
@@ -130,11 +130,13 @@ export const formations: Formation[] = [
 export type Realisation = { src: string; alt: string }
 
 export const realisations: Realisation[] = [
-  { src: '/images/palette.jpg', alt: 'Empilement de tranches de bois massif façonnées à la main' },
+  { src: '/images/essence.jpg', alt: 'Coupe de tronc de chêne révélant les cernes du bois' },
   { src: '/images/table-1.jpg', alt: 'Table en bois massif issue de la forêt de chênes' },
   { src: '/images/table-2.jpg', alt: 'Table en bois brut au plateau naturel' },
-  { src: '/images/decoupe.jpg', alt: 'Découpe et sciage du bois à l’atelier' },
-  { src: '/images/atelier.jpg', alt: 'L’atelier et la scierie de Nicolas Rabot en forêt' },
+  { src: '/images/charpente.jpg', alt: 'Charpente en bois de l’atelier, assemblée à la main' },
+  { src: '/images/interieur-maison.jpg', alt: 'Intérieur en bois de la maison écologique auto-construite' },
+  { src: '/images/scierie-foret.jpg', alt: 'La scierie de Nicolas Rabot au cœur de la forêt de chênes' },
+  { src: '/images/palette.jpg', alt: 'Empilement de tranches de bois massif façonnées à la main' },
 ]
 
 // NOTE : témoignages illustratifs — à remplacer par de vrais avis clients.
@@ -162,8 +164,8 @@ export const testimonials: Testimonial[] = [
 ]
 
 export const artisan = {
-  portrait: '/images/atelier.jpg',
-  portraitAlt: 'L’atelier et la scierie de Nicolas Rabot en pleine forêt',
+  portrait: '/images/atelier-interieur.jpg',
+  portraitAlt: 'L’atelier de charpente de Nicolas Rabot, baigné de lumière en forêt',
   paragraphs: [
     'Artisan menuisier et forestier installé en Haute-Garonne, entre Revel et Vaudreuille, Nicolas Rabot gère et valorise le bois de sa propre forêt de chênes selon une gestion raisonnée et durable.',
     'Chaque essence est transformée dans son atelier en objets uniques et durables. Sa démarche se concrétise par la construction de sa propre maison autonome, conçue avec des matériaux naturels, locaux et renouvelables — autonome en eau et en électricité.',
