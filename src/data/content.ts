@@ -53,8 +53,8 @@ export const formations: Formation[] = [
     id: 'maison-ecologique',
     eyebrow: 'Formation 1',
     title: 'Maison en bois écologique & autonome',
-    image: '/images/maison-autonome.jpg',
-    imageAlt: 'Maison en bois équipée de panneaux solaires, autonome en eau et en électricité',
+    image: '/images/maison-ecologique.jpg',
+    imageAlt: 'Maison en bois écologique auto-construite, autonome en eau et en électricité',
     duration: '3 jours',
     price: '750 € (indicatif)',
     group: 'Immersion en petit groupe',
@@ -130,9 +130,9 @@ export const formations: Formation[] = [
 export type Realisation = { src: string; alt: string }
 
 export const realisations: Realisation[] = [
-  { src: '/images/essence.jpg', alt: 'Coupe de tronc de chêne révélant les cernes du bois' },
+  { src: '/images/essence-2.jpg', alt: 'Coupe de tronc de chêne révélant les cernes et le grain du bois' },
   { src: '/images/table-1.jpg', alt: 'Table en bois massif issue de la forêt de chênes' },
-  { src: '/images/table-2.jpg', alt: 'Table en bois brut au plateau naturel' },
+  { src: '/images/atelier-bois.jpg', alt: 'Établis et bois en cours de façonnage dans l’atelier' },
   { src: '/images/charpente.jpg', alt: 'Charpente en bois de l’atelier, assemblée à la main' },
   { src: '/images/interieur-maison.jpg', alt: 'Intérieur en bois de la maison écologique auto-construite' },
   { src: '/images/scierie-foret.jpg', alt: 'La scierie de Nicolas Rabot au cœur de la forêt de chênes' },
